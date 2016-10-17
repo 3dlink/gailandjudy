@@ -19,7 +19,9 @@ var url = require('url');
 // mongo jello.modulusmongo.net:27017/tume2Nig -u GJ -p 12345678
 
 // localhost
-mongoose.connect('mongodb://localhost/GyJ');
+// mongoose.connect('mongodb://localhost/GyJ');
+
+mongoose.connect('mongodb://cahl:london.123@ds059516.mlab.com:59516/heroku_v3sp241p')
 
 // produccion
 // mongoose.connect('mongodb://GJ:12345678@jello.modulusmongo.net:27017/tume2Nig');
