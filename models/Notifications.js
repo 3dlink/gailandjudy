@@ -10,8 +10,12 @@ var NotificationsSchema = new mongoose.Schema({
   member: { type: Schema.ObjectId, ref: "User" },
   action: String,
   size: Number,
-  icon: { type: String, default: "assets/jacket.png"},
-  item: { type: Schema.ObjectId, ref: "Item" }
+  icon: { type: String, default: ""},
+  item: { type: Schema.ObjectId, ref: "Item" },
+  news: { type: Number, default: 0},
+  view: { type: Number, default: 0},
+
 });
+
 
 mongoose.model('Notifications',NotificationsSchema);

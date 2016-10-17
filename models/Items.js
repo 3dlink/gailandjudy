@@ -21,6 +21,8 @@ var ItemsSchema = new mongoose.Schema({
   material: String,
   color: String,
   likes: {type: Number, default: 0},
+  loveActive: {type: Number, default: 1},
+  skip: {type: Number, default: 0},
   active: {type: Number, default: 1}
 });
 

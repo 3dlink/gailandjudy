@@ -6,20 +6,34 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var mongoose = require('mongoose');
 var multiparty = require('multiparty')
+var fs = require('fs');
+var url = require('url');
 
+// GyJDev Clean
+// MONGO URI
+// mongodb://<user>:<pass>@jello.modulusmongo.net:27017/sIrid4oq
+// MONGO CONSOLE
+// mongo jello.modulusmongo.net:27017/sIrid4oq -u <user> -p <pass>
+// mongoose.connect('mongodb://3dlink:3dlink21@jello.modulusmongo.net:27017/sIrid4oq')
+
+// mongo jello.modulusmongo.net:27017/tume2Nig -u GJ -p 12345678
+
+// localhost
 mongoose.connect('mongodb://localhost/GyJ');
+
+// produccion
+// mongoose.connect('mongodb://GJ:12345678@jello.modulusmongo.net:27017/tume2Nig');
+
+
 require('./models/Users');
 require('./models/Brands');
 require('./models/Items');
 require('./models/Likes');
+require('./models/Ignores');
 require('./models/Follows');
 require('./models/Matchs');
 require('./models/Notifications');
 require('./models/Closedeals');
-
-
-
-
 
 
 var routes = require('./routes/index');
@@ -42,17 +56,24 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', routes);
 app.use('/users', users);
 
+app.use(express.static(__dirname + '/public'));
+
 app.use(function(req,res,next){
-  if (req.url === '/getImage') {
-    res.writeHead(200, {'content-type': 'text/html'});
-    res.end(
-      '<form action="/uploadImg" enctype="multipart/form-data" method="post">'+
-      '<input type="text" name="title"><br>'+
-      '<input type="file" name="upload" multiple="multiple"><br>'+
-      '<input type="submit" value="Upload">'+
-      '</form>'
-    );
-  }
+  // if (req.url === '/gtI') {
+  //   var img = fs.readFileSync('uploads/5sD3zKo6ZBcSXeT7TtFgcCnl.jpg');
+  //   res.writeHead(200, {'Content-Type': 'text/html' });
+  //   res.end(img, 'binary');
+  // }
+  // if (req.url === '/getImage') {
+  //   res.writeHead(200, {'content-type': 'text/html'});
+  //   res.end(
+  //     '<form action="/uploadImg" enctype="multipart/form-data" method="post">'+
+  //     '<input type="text" name="title"><br>'+
+  //     '<input type="file" name="upload" multiple="multiple"><br>'+
+  //     '<input type="submit" value="Upload">'+
+  //     '</form>'
+  //   );
+  // }
   // else if (req.url === '/upload') {
   //   var form = new multiparty.Form({autoFiles:true, uploadDir:'uploads/'});
   //

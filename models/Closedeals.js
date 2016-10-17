@@ -11,7 +11,7 @@ var ClosedealsSchema = new mongoose.Schema({
   action: String,
   size: Number,
   icon: { type: String, default: "assets/jacket.png"},
-  img: { type: Schema.ObjectId, ref: "Item" },
+  img: String,
   name: String,
   type: Number
 
