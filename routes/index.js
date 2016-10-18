@@ -385,32 +385,32 @@ router.post('/register', function(req, res, next) {
             to: user['email'], // list of receivers
             subject: 'Welcome from Gail & Judy', // Subject line
             html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
-            	'<header style="width: 100%;height: 85px;background-image: url(http://45.33.94.253:3030/images/Header.png);background-repeat: no-repeat;"></header>'+
+            	'<header style="width: 100%;height: 85px;background-image: url(https://gaj3dlink.herokuapp.com/images/Header.png);background-repeat: no-repeat;"></header>'+
             	'<section style="float: left;width: 100%;padding: 50px;background: white;">'+
               text+
               '</section>'+
-            	'<footer style="float: left;width: 100%;height: 320px;background-image: url(http://45.33.94.253:3030/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
+            	'<footer style="float: left;width: 100%;height: 320px;background-image: url(https://gaj3dlink.herokuapp.com/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
             		'<table style="text-align: center;vertical-align: middle; width:250px; margin:0 auto; color:#ae1721;border-spacing: 10px;">'+
             			'<tr>'+
             				'<td colspan="2">Download the app today</td>'+
             			'</tr>'+
             			'<tr>'+
-            				'<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Applestore.png"></td>'+
-            				'<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Googleplay.png"></td>'+
+            				'<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Applestore.png"></td>'+
+            				'<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Googleplay.png"></td>'+
             			'</tr>'+
             			'<tr>'+
             				'<td colspan="2">Follow us on social media</td>'+
             			'</tr>'+
             			'<tr>'+
             				'<td colspan="2">'+
-            					'<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Facebook.png">'+
-            					'<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Twitter.png">'+
-            					'<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Google.png">'+
+            					'<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Facebook.png">'+
+            					'<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Twitter.png">'+
+            					'<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Google.png">'+
             				'</td>'+
             			'</tr>'+
             			'<tr style="font-size:12px;">'+
-            				'<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">UNSUBSCRIBE</a></td>'+
-            				'<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">PRIVACY POLICY</a></td>'+
+            				'<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">UNSUBSCRIBE</a></td>'+
+            				'<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">PRIVACY POLICY</a></td>'+
             			'</tr>'+
             			'<tr style="font-size:12px;">'+
             				'<td colspan="2">@2016 Gail & Judy. All rights reserved.</td>'+
@@ -577,32 +577,32 @@ router.get('/forgot/:email', function(req, res, next) {
         to: emailUser, // list of receivers
         subject: 'Reset your password', // Subject line
         html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
-          '<header style="width: 100%;height: 85px;background-image: url(http://45.33.94.253:3030/images/Header.png);background-repeat: no-repeat;"></header>'+
+          '<header style="width: 100%;height: 85px;background-image: url(https://gaj3dlink.herokuapp.com/images/Header.png);background-repeat: no-repeat;"></header>'+
           '<section style="float: left;width: 100%;padding: 50px;background: white;">'+
           text+
           '</section>'+
-          '<footer style="float: left;width: 100%;height: 320px;background-image: url(http://45.33.94.253:3030/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
+          '<footer style="float: left;width: 100%;height: 320px;background-image: url(https://gaj3dlink.herokuapp.com/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
             '<table style="text-align: center;vertical-align: middle; width:250px; margin:0 auto; color:#ae1721;border-spacing: 10px;">'+
               '<tr>'+
                 '<td colspan="2">Download the app today</td>'+
               '</tr>'+
               '<tr>'+
-                '<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Applestore.png"></td>'+
-                '<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Googleplay.png"></td>'+
+                '<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Applestore.png"></td>'+
+                '<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Googleplay.png"></td>'+
               '</tr>'+
               '<tr>'+
                 '<td colspan="2">Follow us on social media</td>'+
               '</tr>'+
               '<tr>'+
                 '<td colspan="2">'+
-                  '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Facebook.png">'+
-                  '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Twitter.png">'+
-                  '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Google.png">'+
+                  '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Facebook.png">'+
+                  '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Twitter.png">'+
+                  '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Google.png">'+
                 '</td>'+
               '</tr>'+
               '<tr style="font-size:12px;">'+
-                '<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">UNSUBSCRIBE</a></td>'+
-                '<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">PRIVACY POLICY</a></td>'+
+                '<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">UNSUBSCRIBE</a></td>'+
+                '<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">PRIVACY POLICY</a></td>'+
               '</tr>'+
               '<tr style="font-size:12px;">'+
                 '<td colspan="2">@2016 Gail & Judy. All rights reserved.</td>'+
@@ -640,7 +640,7 @@ router.post('/sendEmail/:id/:user', function(req,res,next){
         to:user['email'], // list of receivers
         subject: 'New message from '+req.body.Name, // Subject line
         html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
-        	'<header style="width: 100%;height: 85px;background-image: url(http://45.33.94.253:3030/images/Header.png);background-repeat: no-repeat;"></header>'+
+        	'<header style="width: 100%;height: 85px;background-image: url(https://gaj3dlink.herokuapp.com/images/Header.png);background-repeat: no-repeat;"></header>'+
         	'<section style="float: left;width: 100%;padding: 50px;background: white;">'+
           text+
           '<br /><br />'+
@@ -648,28 +648,28 @@ router.post('/sendEmail/:id/:user', function(req,res,next){
           '<br /><br />'+
           footer+
           '</section>'+
-        	'<footer style="float: left;width: 100%;height: 320px;background-image: url(http://45.33.94.253:3030/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
+        	'<footer style="float: left;width: 100%;height: 320px;background-image: url(https://gaj3dlink.herokuapp.com/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
         		'<table style="text-align: center;vertical-align: middle; width:250px; margin:0 auto; color:#ae1721;border-spacing: 10px;">'+
         			'<tr>'+
         				'<td colspan="2">Download the app today</td>'+
         			'</tr>'+
         			'<tr>'+
-        				'<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Applestore.png"></td>'+
-        				'<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Googleplay.png"></td>'+
+        				'<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Applestore.png"></td>'+
+        				'<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Googleplay.png"></td>'+
         			'</tr>'+
         			'<tr>'+
         				'<td colspan="2">Follow us on social media</td>'+
         			'</tr>'+
         			'<tr>'+
         				'<td colspan="2">'+
-        					'<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Facebook.png">'+
-        					'<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Twitter.png">'+
-        					'<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Google.png">'+
+        					'<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Facebook.png">'+
+        					'<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Twitter.png">'+
+        					'<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Google.png">'+
         				'</td>'+
         			'</tr>'+
         			'<tr style="font-size:12px;">'+
-        				'<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">UNSUBSCRIBE</a></td>'+
-        				'<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">PRIVACY POLICY</a></td>'+
+        				'<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">UNSUBSCRIBE</a></td>'+
+        				'<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">PRIVACY POLICY</a></td>'+
         			'</tr>'+
         			'<tr style="font-size:12px;">'+
         				'<td colspan="2">@2016 Gail & Judy. All rights reserved.</td>'+
@@ -695,7 +695,7 @@ router.post('/sendEmail/:id/:user', function(req,res,next){
           to:user2['email'], // list of receivers
           subject: 'Sent message to '+user['username'], // Subject line
           html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
-            '<header style="width: 100%;height: 85px;background-image: url(http://45.33.94.253:3030/images/Header.png);background-repeat: no-repeat;"></header>'+
+            '<header style="width: 100%;height: 85px;background-image: url(https://gaj3dlink.herokuapp.com/images/Header.png);background-repeat: no-repeat;"></header>'+
             '<section style="float: left;width: 100%;padding: 50px;background: white;">'+
             text+
             '<br /><br />'+
@@ -703,28 +703,28 @@ router.post('/sendEmail/:id/:user', function(req,res,next){
             '<br /><br />'+
             footer+
             '</section>'+
-            '<footer style="float: left;width: 100%;height: 320px;background-image: url(http://45.33.94.253:3030/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
+            '<footer style="float: left;width: 100%;height: 320px;background-image: url(https://gaj3dlink.herokuapp.com/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
               '<table style="text-align: center;vertical-align: middle; width:250px; margin:0 auto; color:#ae1721;border-spacing: 10px;">'+
                 '<tr>'+
                   '<td colspan="2">Download the app today</td>'+
                 '</tr>'+
                 '<tr>'+
-                  '<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Applestore.png"></td>'+
-                  '<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Googleplay.png"></td>'+
+                  '<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Applestore.png"></td>'+
+                  '<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Googleplay.png"></td>'+
                 '</tr>'+
                 '<tr>'+
                   '<td colspan="2">Follow us on social media</td>'+
                 '</tr>'+
                 '<tr>'+
                   '<td colspan="2">'+
-                    '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Facebook.png">'+
-                    '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Twitter.png">'+
-                    '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Google.png">'+
+                    '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Facebook.png">'+
+                    '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Twitter.png">'+
+                    '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Google.png">'+
                   '</td>'+
                 '</tr>'+
                 '<tr style="font-size:12px;">'+
-                  '<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">UNSUBSCRIBE</a></td>'+
-                  '<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">PRIVACY POLICY</a></td>'+
+                  '<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">UNSUBSCRIBE</a></td>'+
+                  '<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">PRIVACY POLICY</a></td>'+
                 '</tr>'+
                 '<tr style="font-size:12px;">'+
                   '<td colspan="2">@2016 Gail & Judy. All rights reserved.</td>'+
@@ -767,32 +767,32 @@ router.post('/sendUsEmail', function(req,res,next){
         to: 'clem@gailandjudy.com', // list of receivers
         subject: 'Contact Us', // Subject line
         html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
-          '<header style="width: 100%;height: 85px;background-image: url(http://45.33.94.253:3030/images/Header.png);background-repeat: no-repeat;"></header>'+
+          '<header style="width: 100%;height: 85px;background-image: url(https://gaj3dlink.herokuapp.com/images/Header.png);background-repeat: no-repeat;"></header>'+
           '<section style="float: left;width: 100%;padding: 50px;background: white;">'+
           text+
           '</section>'+
-          '<footer style="float: left;width: 100%;height: 320px;background-image: url(http://45.33.94.253:3030/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
+          '<footer style="float: left;width: 100%;height: 320px;background-image: url(https://gaj3dlink.herokuapp.com/images/footer.png);background-repeat: no-repeat;padding: 50px 0;">'+
             '<table style="text-align: center;vertical-align: middle; width:250px; margin:0 auto; color:#ae1721;border-spacing: 10px;">'+
               '<tr>'+
                 '<td colspan="2">Download the app today</td>'+
               '</tr>'+
               '<tr>'+
-                '<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Applestore.png"></td>'+
-                '<td style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com"><img src=(http://45.33.94.253:3030/images/Googleplay.png"></td>'+
+                '<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Applestore.png"></td>'+
+                '<td style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/"><img src=(https://gaj3dlink.herokuapp.com/images/Googleplay.png"></td>'+
               '</tr>'+
               '<tr>'+
                 '<td colspan="2">Follow us on social media</td>'+
               '</tr>'+
               '<tr>'+
                 '<td colspan="2">'+
-                  '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Facebook.png">'+
-                  '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Twitter.png">'+
-                  '<img style="cursor:pointer;" onclick="window.location.href=http://www.bepurpledash.com" src=(http://45.33.94.253:3030/images/Google.png">'+
+                  '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Facebook.png">'+
+                  '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Twitter.png">'+
+                  '<img style="cursor:pointer;" onclick="window.location.href=http://3dlinkweb.com/" src=(https://gaj3dlink.herokuapp.com/images/Google.png">'+
                 '</td>'+
               '</tr>'+
               '<tr style="font-size:12px;">'+
-                '<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">UNSUBSCRIBE</a></td>'+
-                '<td><a style="color:#ae1721;text-decoration:none;" href="http://www.bepurpledash.com">PRIVACY POLICY</a></td>'+
+                '<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">UNSUBSCRIBE</a></td>'+
+                '<td><a style="color:#ae1721;text-decoration:none;" href="http://3dlinkweb.com/">PRIVACY POLICY</a></td>'+
               '</tr>'+
               '<tr style="font-size:12px;">'+
                 '<td colspan="2">@2016 Gail & Judy. All rights reserved.</td>'+
