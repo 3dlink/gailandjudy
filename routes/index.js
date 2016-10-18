@@ -381,7 +381,7 @@ router.post('/register', function(req, res, next) {
         var transporter = nodemailer.createTransport(smtpConfig);
         var text = "Welcome! Now you’re all set to sell, buy and swap your pre-loved fashion. <br><br>We hope you’ll enjoy it! Before getting started don’t hesitate to review the features of the app here.<br><br>Gail & Judy<br><br><br>Here should link to our web site on the FAQ section.";
         var mailOptions = {
-            from: '"Gail and Judy" <clem@gailandjudy.com>', // sender address
+            from: '"Gail and Judy" <dtorrealba@3dlinkweb.com>', // sender address
             to: user['email'], // list of receivers
             subject: 'Welcome from Gail & Judy', // Subject line
             html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
@@ -573,7 +573,7 @@ router.get('/forgot/:email', function(req, res, next) {
     var transporter = nodemailer.createTransport(smtpConfig);
     var text = "This is your password:<br><br><br><h1>"+users.password+"</h1>";
     var mailOptions = {
-        from: '"Gail and Judy" <clem@gailandjudy.com>', // sender address
+        from: '"Gail and Judy" <dtorrealba@3dlinkweb.com>', // sender address
         to: emailUser, // list of receivers
         subject: 'Reset your password', // Subject line
         html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
@@ -636,7 +636,7 @@ router.post('/sendEmail/:id/:user', function(req,res,next){
     var footer = "Connect to the app to know more."
 
     var mailOptions = {
-        from: '"Gail and Judy" <clem@gailandjudy.com>', // sender address
+        from: '"Gail and Judy" <dtorrealba@3dlinkweb.com>', // sender address
         to:user['email'], // list of receivers
         subject: 'New message from '+req.body.Name, // Subject line
         html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
@@ -691,7 +691,7 @@ router.post('/sendEmail/:id/:user', function(req,res,next){
       var footer = "Connect to the app to know more."
 
       var mailOptions2 = {
-          from: '"Gail and Judy" <clem@gailandjudy.com>', // sender address
+          from: '"Gail and Judy" <dtorrealba@3dlinkweb.com>', // sender address
           to:user2['email'], // list of receivers
           subject: 'Sent message to '+user['username'], // Subject line
           html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
@@ -763,8 +763,8 @@ router.post('/sendUsEmail', function(req,res,next){
     var transporter = nodemailer.createTransport(smtpConfig);
     var text = "From the user: "+req.body.Name+". Consult: "+req.body.Message;
     var mailOptions = {
-        from: '"Gail And Judy" <clem@gailandjudy.com>', // sender address
-        to: 'clem@gailandjudy.com', // list of receivers
+        from: '"Gail And Judy" <dtorrealba@3dlinkweb.com>', // sender address
+        to: 'dtorrealba@3dlinkweb.com', // list of receivers
         subject: 'Contact Us', // Subject line
         html: '<body style="width: 100%;max-width: 600px;margin: 0 auto;font-family: arial;">'+
           '<header style="width: 100%;height: 85px;background-image: url(https://gaj3dlink.herokuapp.com/images/Header.png);background-repeat: no-repeat;"></header>'+
